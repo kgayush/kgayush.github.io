@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+
+            .topnav{
+                overflow: hidden;
+                /* background-color: rgb(184, 41, 69); */
+                
+            }
+
+            .topnav a{
+                float: right;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                display: block;
+                color: #ddd;
+                margin: 8px;
+                border-radius: 10px;
+            }    
+            
+            .topnav a:hover{
+                background-color: #ddd;
+                color: black;
+            }
+
+            .topnav a.active{
+                background-color: #ddd;
+                color: black;
+            }
+
+            input.searchnav{
+                border-radius: 25px;
+                width: 30%;
+                padding: 10px 15px;
+                margin-left: 34%;
+                border: #ddd;  
+
+            }
+
+            input.search{
+                border-radius: 5px;
+                padding: 10px;
+                margin-left: 45%;
+                width: 10%;
+                background-color: rgb(53, 51, 51);
+                border: #ddd;  
+                color: #ddd;
+            }
+
+            input.search:hover{
+                background-color: rgb(50, 61, 70);    
+            }
+
+            img{
+                margin-left: 30%;
+            }
+
+            body{
+                background-color: #202124;
+            }
+        
+
+        </style>
+    </head>
+    <body>
+               
+        <div class="topnav">
+            <a href="image.html">Image search</a>
+            <a class="active">Home</a>
+        </div>
+
+        <div>
+            <img src="Google.png" >
+        </div>
+        
+        <div>
+            <form action="https://google.com/search">
+                <input type="text" name="q" class="searchnav" placeholder="Type here to search">
+                <br></br>
+                <input type="submit" value="Google Search" class="search">
+            </form>
+        </div>
+        
+    </body>
+</html>
